@@ -1,60 +1,36 @@
-/* Custom Css
-   @author: Ander Uraga
-   @version: 1.0
-   @github: .......
-************************************************************/
-
-main[role="main"] {
-    margin-top: 4rem;
-    min-height: 80vh;
+h1 {
+	color: red;
 }
 
-
-footer {
-    color: #FFF;
-}
-
-.form-login {
-    width: 100%;
-    max-width: 330px;
-    padding: 15px;
-    margin: auto;
-}
-
-.form-producto {
-    width: 100%;
-    max-width: 400px;
-    padding: 15px;
-    margin: auto;
-}
-
-td {
-    vertical-align: middle !important;    
-}
-
-
-#login i {
-    display: block;
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-
-.row-card {
+.fila {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.row-card .card {
+.card-custom {
 	width: 24%;
-	margin-right: 0.5%;
-	margin-bottom: 0.5%;
-	box-sizing: content-box;
+	margin-top: 1%;
+	margin-right: 1%;
 }
 
-.row-card .card img {
-	height: 10em;
+.icono-inicio {
+	box-shadow: 0 2px 4px 0 rgba(37, 50, 56, .1);
+	border-radius: 5px;
+	color: #fff; background-color : #13c1ac;
+	padding: 0.5rem;
+	background-color: #13c1ac;
 }
 
+a.redondeado{
+	color: #fff;
+	background-color: #13c1ac !important;
+}
+.redondeado {
+	border-radius: 1rem;
+	border-color: #13c1ac;
+}
 
+button {
+	color: #fff;
+	background-color: #13c1ac !important;
+}
